@@ -1,0 +1,22 @@
+.card-container {
+    display: flex;
+    gap: 4rem;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0rem 2rem 8rem 2rem;
+  }
+  
+.card {
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    margin-top: -2rem;
+    padding: 6rem;
+    z-index: 10;
+  }
+
+  @media screen and (max-width: 750px) {
+    .card-container {
+        flex-direction: column;
+      }
+  }
