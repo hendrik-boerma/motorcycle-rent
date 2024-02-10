@@ -99,13 +99,11 @@ nav {
         gap: 1rem;
     }
     .navbar {
-        position: relative;
         display: flex;
         align-items: center;
-        width: 100%;
         justify-content: flex-start;
+        width: 100%;
         gap: 1rem;
-        overflow: hidden;
     }
     ul {
         flex-direction: column;
