@@ -6,8 +6,7 @@ function Header() {
     <header>
       <article>
         <h1>Ride Your Dream Bike</h1>
-        <p>Embark on a journey of discovery and freedom as you pedal through the cityscape on the bike of your dreams. Our premium selection ensures a ride like no other, where comfort meets style and every turn unveils a new adventure.</p>
-        <button>Discover Your Ride</button>
+        <p>We have a wide range of bikes that you can rent. Please look at the bikes and have a beautiful ride.</p>
       </article>
       <img src={HeaderImage} alt='motorcycle riding coast route' />
     </header>

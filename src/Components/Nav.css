@@ -6,23 +6,24 @@ nav {
     padding: 1rem 4rem;
     display: flex;
     align-items: center;
-    background-color: #efefef;
+    background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 100; 
 }
 
 .toggle-button {
-    background-color: #efefef;
+    background-color: #ffffff;
     border: none;
     display: none;
     overflow: hidden;
     height: 2rem;
+    cursor: pointer;
 }
 
 .toggle-button span {
     width: 2rem;
     height: 0.25rem;
-    background-color: #000000;
+    background-color: #2F6073;
     border-radius: 4rem;
     transition: 0.5s;
 }
@@ -34,10 +35,12 @@ nav {
 .toggle-button.active span:nth-child(1) {
     transform: translateY(0.5rem) rotate(45deg);
     width: 2rem;
+    background-color: #091E26;
 }
 
 .toggle-button span:nth-child(2) {
     width: 2rem;
+    background-color: #091E26;
 }
 
 .toggle-button.active span:nth-child(2) {
@@ -53,8 +56,9 @@ nav {
 }
 
 .logo {
-    width: auto;
-    height: 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2F6073;
 }
 
 .navlist-open {

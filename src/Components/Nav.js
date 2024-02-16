@@ -1,5 +1,4 @@
 import './Nav.css';
-import logo from '../Images/Logo.png'
 import { useState } from 'react';
 
 function Nav() {
@@ -24,7 +23,7 @@ function Nav() {
             <span></span>
             <span></span>
           </button>
-          <img className='logo' src={logo} alt='logo'/>
+          <p className='logo'>BikeRent</p>
           </div>
             <ul className={toggleMenu ? "navlist-open" : "navlist-close"}>
                 <li>Home</li>

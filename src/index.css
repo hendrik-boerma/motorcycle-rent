@@ -6,21 +6,45 @@
 body {
   margin: 0;
   padding: 0;
-  font-family:'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  background-color: #efefef;
+  font-family:'Grill Sans', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
 h1 {
-  color: #000000;
+  color: #2F6073;
   font-size: 2rem;
   margin: 0;
 }
 
+h4 {
+  color: #2F6073;
+}
+
 p {
-  color: #000000;
+  padding: 0.5rem 0;
+  margin: 0;
+  color: #091E26;
   font-size: 1rem;
+}
+
+li {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #091E26;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #2F6073;
 }
 
 code {
