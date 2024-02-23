@@ -1,44 +1,31 @@
-import ducati from './Images/ducati.jpg'
+import sport from './Images/sport.jpg'
+import adventure from './Images/adventure.jpg'
+import naked from './Images/114.jpg'
+import livewire from './Images/livewire.jpg'
 
 export const bikes = [
-    {        
-    name: 'Ducati monster S2R',
-    price: '85,-',
-    description: 'Ducati monster s2r 800. V-twin engine with 800cc and 75 hp.',
-    engine: 'V-twin 800 cc',
-    year: '2006',
-    horsepower: '75hp',
-    license: 'A',
-    picture: ducati
-},
-{        
-    name: 'Ducati monster S2R',
-    price: '85,-',
-    description: 'Ducati monster s2r 800. V-twin engine with 800cc and 75 hp.',
-    engine: 'V-twin 800 cc',
-    year: '2006',
-    horsepower: '75hp',
-    license: 'A',
-    picture: ducati
-},
-{        
-    name: 'Ducati monster S2R',
-    price: '85,-',
-    description: 'Ducati monster s2r 800. V-twin engine with 800cc and 75 hp.',
-    engine: 'V-twin 800 cc',
-    year: '2006',
-    horsepower: '75hp',
-    license: 'A',
-    picture: ducati
-},
-{        
-    name: 'Ducati monster S2R',
-    price: '85,-',
-    description: 'Ducati monster s2r 800. V-twin engine with 800cc and 75 hp.',
-    engine: 'V-twin 800 cc',
-    year: '2006',
-    horsepower: '75hp',
-    license: 'A',
-    picture: ducati
-}
+    {
+        name: 'LiveWire',
+        price: '95,-',
+        description: 'Electric - 2020',
+        picture: livewire
+    },
+    {
+        name: 'Pan America',
+        price: '100,-',
+        description: 'V-twin 1250 - 2022',
+        picture: adventure
+    },
+    {
+        name: 'Fat Bob',
+        price: '95,-',
+        description: 'V-twin 1868 - 2022',
+        picture: naked
+    },
+    {
+        name: 'Streetfighter',
+        price: '95,-',
+        description: 'V-twin 975 - 2024',
+        picture: sport
+    }
 ];

@@ -1,14 +1,15 @@
 .card-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   justify-content: center;
-  padding: 4rem 12rem 8rem 12rem;
 }
 
 .card {
   background-color: #ffffff;
   border-radius: 0.25rem;
+  width: 100%;
+  max-width: 30rem;
   z-index: 10;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09);
 }
@@ -21,8 +22,8 @@
 .cardimage {
   border-radius: 0.25rem 0.25rem 0 0;
   width: 100%;
-  height: 100%;
-  max-height: 10rem;
+  height: auto;
+  max-height: 24rem;
   object-fit: cover;
 }
 
@@ -34,7 +35,7 @@
 .cardprice span {
   font-size: 1rem;
   font-weight: 600;
-  color: #2F6073;
+  color: #0D0D0D;
 }
 
 .carddescription {
@@ -65,30 +66,34 @@ H4 {
   border: none;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  background-color: #091E26;
+  background-color: #D9310B;
   color: #ffffff;
-  border: 2px solid #091E26;
+  border: 2px solid #D9310B;
   transition: 0.5s;
 }
 
 .cardbutton:hover {
   background-color: #ffffff;
-  border-color: #091E26;
-  color: #091E26;
+  border-color: #D9310B;
+  color: #D9310B;
   cursor: pointer;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 2000px) {
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media screen and (max-width: 1279px) {
   .card-container {
     grid-template-columns: repeat(2, 1fr);
-    padding: 2rem 4rem 8rem 4rem;
   }
 }
 
 @media screen and (max-width: 750px) {
   .card-container {
-    padding: 2rem 1rem 8rem 1rem;
     display: flex;
     flex-direction: column;
   }
