@@ -7,7 +7,7 @@ function Routing () {
 
     return (
       <Routes basename="/motorcycle-rent">
-        <Route path="/" element={<Home />} />
+        <Route path="/motorcycle-rent" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/rent" element={<Rent />} />
       </Routes>
