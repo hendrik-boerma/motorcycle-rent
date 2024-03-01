@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Cards.css';
 
 function Cards({products}) {
@@ -10,7 +11,7 @@ function Cards({products}) {
             <p className='carddescription'>{product.description}</p>
             <div>
               <p className="cardprice">${product.price} <span>per day</span></p>
-              <button className="cardbutton">Book now</button>
+              <Link to={`/booking/${product.link}`} className="cardbutton">Book now</Link>
             </div>
         </div>))
       }

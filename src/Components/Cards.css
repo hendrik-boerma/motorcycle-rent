@@ -16,7 +16,6 @@
 
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  cursor: pointer;
 }
 
 .cardimage {
@@ -61,6 +60,7 @@ H4 {
 
 
 .cardbutton {
+  text-align: center;
   font-size: 1rem;
   border-radius: 0.25rem;
   border: none;
@@ -78,6 +78,7 @@ H4 {
   color: #D9310B;
   cursor: pointer;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 2000px) {
