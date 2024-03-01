@@ -5,15 +5,16 @@ import { Link } from "react-router-dom";
 function Nav() {
 
   const [toggleMenu, setToggleMenu] = useState(false);
-  const toggleAnimation = document.querySelector('.toggle-button');
 
   function closeTogglefunction() {
+    const toggleAnimation = document.querySelector('.toggle-button');
     window.scrollTo(0, 0);
     setToggleMenu(false);
     toggleAnimation.classList.remove('active');
   }
 
   function handleTogglefunction() {
+    const toggleAnimation = document.querySelector('.toggle-button');
     if (!toggleMenu) {
       toggleAnimation.classList.add('active');
     } else {
