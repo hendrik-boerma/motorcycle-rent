@@ -1,5 +1,6 @@
 import './Nav.css';
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 function Nav() {
 
@@ -26,9 +27,9 @@ function Nav() {
           <p className='logo'>BikeRent</p>
           </div>
             <ul className={toggleMenu ? "navlist-open" : "navlist-close"}>
-                <li>Home</li>
-                <li>About</li>
-                <li>Rent</li>
+            <Link to="/" onClick={handleTogglefunction}>Home</Link>
+            <Link to="/About" onClick={handleTogglefunction}>About</Link>
+            <Link to="/Rent" onClick={handleTogglefunction}>Rent</Link>
             </ul>
         </nav>
   );

@@ -1,16 +1,18 @@
 import './App.css';
-import Cards from './Components/Cards';
+import Nav from './Components/Nav';
+import Routing from './Components/Routing';
+import Footer from './Components/Footer';
 import Header from './Components/Header';
-import Title from './Components/Title';
 
 function App() {
   return (
     <>
+      <Nav />
       <Header />
       <main>
-        <Title />
-        <Cards />
+        <Routing />
       </main>
+      <Footer />
     </>
 
   );

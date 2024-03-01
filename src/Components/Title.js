@@ -1,10 +1,10 @@
 import './Title.css';
 
-function Title() {
+function Title({ title, description }) {
   return (
     <section className='titlesection'>
-       <h1>Ride Your Dream Harley</h1>
-        <p>We have a wide range of Harleys that you can rent. Please take a look and have a beautiful ride.</p>
+       <h1>{title}</h1>
+        <p>{description}</p>
     </section>
   );
 }
