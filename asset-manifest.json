@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/motorcycle-rent/static/css/main.d9b1484a.css",
-    "main.js": "/motorcycle-rent/static/js/main.90afd423.js",
+    "main.css": "/motorcycle-rent/static/css/main.4c1dc6b0.css",
+    "main.js": "/motorcycle-rent/static/js/main.f19f3309.js",
     "static/js/592.9cf08887.chunk.js": "/motorcycle-rent/static/js/592.9cf08887.chunk.js",
     "static/media/background.jpg": "/motorcycle-rent/static/media/background.f657dc5b730b2112f809.jpg",
-    "static/media/adventure.jpg": "/motorcycle-rent/static/media/adventure.8c875cd08d26eca7cf67.jpg",
-    "static/media/sport.jpg": "/motorcycle-rent/static/media/sport.0c5ec4adc011c9928d1b.jpg",
-    "static/media/114.jpg": "/motorcycle-rent/static/media/114.520e97048548111f7467.jpg",
-    "static/media/livewire.jpg": "/motorcycle-rent/static/media/livewire.974ecb31d12a191d304b.jpg",
+    "static/media/adventure.jpg": "/motorcycle-rent/static/media/adventure.2235f5b30ab63ceb4d30.jpg",
+    "static/media/sport.jpg": "/motorcycle-rent/static/media/sport.2186bd91140d64b92ba3.jpg",
+    "static/media/livewire.jpg": "/motorcycle-rent/static/media/livewire.ab015ac60464ec3d0177.jpg",
+    "static/media/114.jpg": "/motorcycle-rent/static/media/114.50ea553e13978dfe7dea.jpg",
     "index.html": "/motorcycle-rent/index.html",
-    "main.d9b1484a.css.map": "/motorcycle-rent/static/css/main.d9b1484a.css.map",
-    "main.90afd423.js.map": "/motorcycle-rent/static/js/main.90afd423.js.map",
+    "main.4c1dc6b0.css.map": "/motorcycle-rent/static/css/main.4c1dc6b0.css.map",
+    "main.f19f3309.js.map": "/motorcycle-rent/static/js/main.f19f3309.js.map",
     "592.9cf08887.chunk.js.map": "/motorcycle-rent/static/js/592.9cf08887.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9b1484a.css",
-    "static/js/main.90afd423.js"
+    "static/css/main.4c1dc6b0.css",
+    "static/js/main.f19f3309.js"
   ]
 }
