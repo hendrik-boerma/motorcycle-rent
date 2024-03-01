@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5fd0429.css",
-    "main.js": "/static/js/main.571ccadc.js",
-    "static/js/592.9cf08887.chunk.js": "/static/js/592.9cf08887.chunk.js",
-    "static/media/background.jpg": "/static/media/background.f657dc5b730b2112f809.jpg",
-    "static/media/adventure.jpg": "/static/media/adventure.8c875cd08d26eca7cf67.jpg",
-    "static/media/sport.jpg": "/static/media/sport.0c5ec4adc011c9928d1b.jpg",
-    "static/media/114.jpg": "/static/media/114.520e97048548111f7467.jpg",
-    "static/media/livewire.jpg": "/static/media/livewire.974ecb31d12a191d304b.jpg",
-    "index.html": "/index.html",
-    "main.b5fd0429.css.map": "/static/css/main.b5fd0429.css.map",
-    "main.571ccadc.js.map": "/static/js/main.571ccadc.js.map",
-    "592.9cf08887.chunk.js.map": "/static/js/592.9cf08887.chunk.js.map"
+    "main.css": "/motorcycle-rent/static/css/main.d9b1484a.css",
+    "main.js": "/motorcycle-rent/static/js/main.efaf4350.js",
+    "static/js/592.9cf08887.chunk.js": "/motorcycle-rent/static/js/592.9cf08887.chunk.js",
+    "static/media/background.jpg": "/motorcycle-rent/static/media/background.f657dc5b730b2112f809.jpg",
+    "static/media/adventure.jpg": "/motorcycle-rent/static/media/adventure.8c875cd08d26eca7cf67.jpg",
+    "static/media/sport.jpg": "/motorcycle-rent/static/media/sport.0c5ec4adc011c9928d1b.jpg",
+    "static/media/114.jpg": "/motorcycle-rent/static/media/114.520e97048548111f7467.jpg",
+    "static/media/livewire.jpg": "/motorcycle-rent/static/media/livewire.974ecb31d12a191d304b.jpg",
+    "index.html": "/motorcycle-rent/index.html",
+    "main.d9b1484a.css.map": "/motorcycle-rent/static/css/main.d9b1484a.css.map",
+    "main.efaf4350.js.map": "/motorcycle-rent/static/js/main.efaf4350.js.map",
+    "592.9cf08887.chunk.js.map": "/motorcycle-rent/static/js/592.9cf08887.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5fd0429.css",
-    "static/js/main.571ccadc.js"
+    "static/css/main.d9b1484a.css",
+    "static/js/main.efaf4350.js"
   ]
 }
