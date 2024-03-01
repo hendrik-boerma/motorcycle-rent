@@ -6,7 +6,7 @@ import Rent from '../Pages/Rent.js';
 function Routing () {
 
     return (
-      <Routes basename="/">
+      <Routes basename="/motorcycle-rent">
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/rent" element={<Rent />} />
