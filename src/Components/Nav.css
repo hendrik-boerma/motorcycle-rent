@@ -3,6 +3,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+    height: 2rem;
     padding: 1rem 4rem;
     display: flex;
     align-items: center;
@@ -59,12 +60,13 @@ nav {
     font-size: 1.25rem;
     font-weight: 600;
     color: #0D0D0D;
+    text-decoration: none;
 }
 
 .navlist-open {
     display: flex;
     list-style: none;
-    gap: 4rem;
+    gap: 2rem;
     text-align: flex-start;
     justify-content: flex-end;
     margin: 0;
@@ -73,7 +75,7 @@ nav {
 .navlist-close {
     display: flex;
     list-style: none;
-    gap: 4rem;
+    gap: 2rem;
     text-align: flex-start;
     justify-content: flex-end;
     margin: 0;

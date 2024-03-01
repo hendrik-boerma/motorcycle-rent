@@ -5,9 +5,15 @@ import { Link } from "react-router-dom";
 function Nav() {
 
   const [toggleMenu, setToggleMenu] = useState(false);
-  
+  const toggleAnimation = document.querySelector('.toggle-button');
+
+  function closeTogglefunction() {
+    window.scrollTo(0, 0);
+    setToggleMenu(false);
+    toggleAnimation.classList.remove('active');
+  }
+
   function handleTogglefunction() {
-    const toggleAnimation = document.querySelector('.toggle-button');
     if (!toggleMenu) {
       toggleAnimation.classList.add('active');
     } else {
@@ -24,12 +30,11 @@ function Nav() {
             <span></span>
             <span></span>
           </button>
-          <p className='logo'>BikeRent</p>
+          <Link className='logo' to="/motorcycle-rent" onClick={closeTogglefunction}>BikeRent</Link>
           </div>
             <ul className={toggleMenu ? "navlist-open" : "navlist-close"}>
-            <Link to="/" onClick={handleTogglefunction}>Home</Link>
-            <Link to="/About" onClick={handleTogglefunction}>About</Link>
-            <Link to="/Rent" onClick={handleTogglefunction}>Rent</Link>
+            <Link className="link" to="/Rentals" onClick={closeTogglefunction}>Rentals</Link>
+            <Link className="link" to="/About" onClick={closeTogglefunction}>About</Link>
             </ul>
         </nav>
   );

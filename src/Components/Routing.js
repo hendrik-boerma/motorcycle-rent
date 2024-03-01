@@ -6,11 +6,13 @@ import Rent from '../Pages/Rent.js';
 function Routing () {
 
     return (
+      <>
       <Routes basename="/motorcycle-rent">
         <Route path="/motorcycle-rent" element={<Home />} />
+        <Route path="/rentals" element={<Rent />} />
         <Route path="/about" element={<About />} />
-        <Route path="/rent" element={<Rent />} />
       </Routes>
+      </>
     );
 }
 

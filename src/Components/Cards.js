@@ -1,16 +1,15 @@
 import './Cards.css';
-import { bikes } from '../Data.js'
 
-function Cards() {
+function Cards({products}) {
   return (
     <section className='card-container'>
-      {bikes.map(bike => (
-        <div className="card" key={bike.name}>
-          <img className='cardimage' src={bike.picture} alt={bike.name} />
-            <h4 className='cardtitle' >{bike.name}</h4>
-            <p className='carddescription'>{bike.description}</p>
+      {products.map(product => (
+        <div className="card" key={product.name}>
+          <img className='cardimage' src={product.picture} alt={product.name} />
+            <h4 className='cardtitle' >{product.name}</h4>
+            <p className='carddescription'>{product.description}</p>
             <div>
-              <p className="cardprice">${bike.price} <span>per day</span></p>
+              <p className="cardprice">${product.price} <span>per day</span></p>
               <button className="cardbutton">Book now</button>
             </div>
         </div>))

@@ -29,3 +29,26 @@ export const bikes = [
         picture: sport
     }
 ];
+
+export const gears = [
+    {
+        name: 'Helmet',
+        price: '95,-',
+        description: 'Bell',
+    },
+    {
+        name: 'Helmet',
+        price: '95,-',
+        description: 'Bell',
+    },
+    {
+        name: 'Helmet',
+        price: '95,-',
+        description: 'Bell',
+    },
+    {
+        name: 'Helmet',
+        price: '95,-',
+        description: 'Bell',
+    }
+];

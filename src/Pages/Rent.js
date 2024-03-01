@@ -1,12 +1,13 @@
 import './Rent.css';
 import Cards from '../Components/Cards';
 import Title from '../Components/Title';
+import { bikes } from '../Data.js'
 
 function Rent() {
     return (
         <>
-            <Title title="Rent" description=""/>
-            <Cards />
+            <Title title="Rentals" description=""/>
+            <Cards products={bikes}/>
         </>
     );
 }
