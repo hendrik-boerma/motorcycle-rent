@@ -20,10 +20,10 @@ function Routing () {
         <Route path="/motorcycle-rent" element={<Home />} />
         <Route path="/rentals" element={<Rent />} />
         <Route path="/about" element={<About />} />
-        <Route path="/booking/livewire" element={<Booking />} />
-        <Route path="/booking/pan_america" element={<Booking />} />
-        <Route path="/booking/fat_bob" element={<Booking />} />
-        <Route path="/booking/streetfighter" element={<Booking />} />
+        <Route path="/booking/livewire" element={<Booking index={0}/>} />
+        <Route path="/booking/pan_america" element={<Booking index={1}/>} />
+        <Route path="/booking/fat_bob" element={<Booking index={2}/>} />
+        <Route path="/booking/streetfighter" element={<Booking index={3}/>} />
       </Routes>
     );
 }
