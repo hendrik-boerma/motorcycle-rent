@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/motorcycle-rent/static/css/main.7f24f799.css",
-    "main.js": "/motorcycle-rent/static/js/main.a1e0f742.js",
+    "main.js": "/motorcycle-rent/static/js/main.906825e0.js",
     "static/js/592.9cf08887.chunk.js": "/motorcycle-rent/static/js/592.9cf08887.chunk.js",
     "static/media/background.jpg": "/motorcycle-rent/static/media/background.f657dc5b730b2112f809.jpg",
     "static/media/adventure.jpg": "/motorcycle-rent/static/media/adventure.2235f5b30ab63ceb4d30.jpg",
@@ -10,11 +10,11 @@
     "static/media/114.jpg": "/motorcycle-rent/static/media/114.50ea553e13978dfe7dea.jpg",
     "index.html": "/motorcycle-rent/index.html",
     "main.7f24f799.css.map": "/motorcycle-rent/static/css/main.7f24f799.css.map",
-    "main.a1e0f742.js.map": "/motorcycle-rent/static/js/main.a1e0f742.js.map",
+    "main.906825e0.js.map": "/motorcycle-rent/static/js/main.906825e0.js.map",
     "592.9cf08887.chunk.js.map": "/motorcycle-rent/static/js/592.9cf08887.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f24f799.css",
-    "static/js/main.a1e0f742.js"
+    "static/js/main.906825e0.js"
   ]
 }
