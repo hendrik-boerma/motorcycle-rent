@@ -16,8 +16,8 @@ function Routing () {
   }, [location.pathname]);
 
     return (
-      <Routes basename="/motorcycle-rent">
-        <Route path="/motorcycle-rent" element={<Home />} />
+      <Routes basename="/">
+        <Route path="/" element={<Home />} />
         <Route path="/rentals" element={<Rent />} />
         <Route path="/about" element={<About />} />
         <Route path="/booking/livewire" element={<Booking index={0}/>} />

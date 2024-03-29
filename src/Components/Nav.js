@@ -31,7 +31,7 @@ function Nav() {
             <span></span>
             <span></span>
           </button>
-          <Link className='logo' to="/motorcycle-rent" onClick={closeTogglefunction}>BikeRent</Link>
+          <Link className='logo' to="/" onClick={closeTogglefunction}>BikeRent</Link>
           </div>
             <ul className={toggleMenu ? "navlist-open" : "navlist-close"}>
             <Link className="link" to="/Rentals" onClick={closeTogglefunction}>Rentals</Link>
