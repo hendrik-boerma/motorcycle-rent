@@ -1,0 +1,27 @@
+select {
+    padding: 0.5rem;
+    border: none;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+}
+
+.filterSection {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    max-width: 30rem;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+label {
+    font-weight: 600;
+    font-size: 1rem;
+}
