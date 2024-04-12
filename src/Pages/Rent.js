@@ -35,6 +35,11 @@ function Rent() {
     }
   };
 
+  function removeFilter() {
+    setSelectedBrand('All brands');
+    setSelectedPrice(0);
+  }
+
   return (
     <>
       <Title title="Rentals" description="" />
@@ -51,6 +56,7 @@ function Rent() {
           selectedValue={selectedPrice}
           onChange={handlePriceChange}
         />
+        <button className='removeButton' onClick={removeFilter}>remove filters</button>
       </section>
       <Cards products={bikes} brand={selectedBrand} price={selectedPrice} />
     </>

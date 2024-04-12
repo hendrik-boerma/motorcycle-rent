@@ -1,5 +1,6 @@
 select {
     padding: 0.5rem;
+    color: #0000EE;
     border: none;
     background-color: #efefef;
     cursor: pointer;
@@ -10,6 +11,7 @@ select {
 .filterSection {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 1rem;
     width: 100%;
     max-width: 30rem;
@@ -19,6 +21,16 @@ select {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+}
+
+.removeButton {
+    padding: 0.5rem;
+    border: none;
+    color: #0000EE;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    font-size: 1rem;
 }
 
 label {
