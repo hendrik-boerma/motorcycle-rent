@@ -2,6 +2,7 @@ import './Home.css';
 import Title from '../Components/Title';
 import Cards from '../Components/Cards';
 import { bikes } from '../Data.js'
+import { Link } from 'react-router-dom';
 
 function Home() {
 
@@ -15,7 +16,10 @@ function Home() {
     return (
         <>
             <Title title="Rent your dream bike" description=""/>
-            <Cards products={bikesHome} brand={'All brands'} price={0} />
+            <Cards products={bikesHome} brand={'All brands'} price={0}/>
+            <div className='seeMoreSection'>
+            <Link className='seeMoreButton' to='/rentals'>See all rentals</Link>
+            </div>
         </>
 
     );
