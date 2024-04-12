@@ -4,7 +4,7 @@ function Title({ title, description }) {
   return (
     <section className='titlesection'>
        <h1>{title}</h1>
-       {description && <p>{description}</p>}
+       {description && <p className='subtitle'>{description}</p>}
     </section>
   );
 }

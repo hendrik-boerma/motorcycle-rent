@@ -18,8 +18,8 @@ function Cards({ products, brand, price }) {
       {filterProducts.map(product => (
         <div className="card" key={product.name}>
           <img className='cardimage' src={product.picture} alt={product.name} />
-          <h4 className='cardtitle'>{product.name}</h4>
-          <p className='carddescription'>{product.description}</p>
+          <h4 className='cardtitle'>{product.brand} - {product.name}</h4>
+          <p className='carddescription'>{product.engine}</p>
           <div>
             <p className="cardprice">${product.price} <span>per day</span></p>
             <Link to={`/booking/${product.link}`} className="cardbutton">Book now</Link>

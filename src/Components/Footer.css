@@ -1,6 +1,27 @@
 footer {
-    width: 100%;
+    gap: 0.5rem;
     background-color: #EFEFEF;
     height: 24rem;
-    margin-top: 16rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 12rem;
+    gap: 0.5rem;
 }
+
+footer p {
+    padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    footer {
+      padding: 4rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      padding: 4rem 1rem;
+    }
+  }

@@ -4,8 +4,9 @@ import About from '../Pages/About.js';
 import Rent from '../Pages/Rent.js';
 import Booking from '../Pages/Booking.js';
 import { useEffect } from "react";
+import { bikes } from '../Data.js'
 
-function Routing () {
+function Routing() {
   const location = useLocation();
 
   useEffect(() => {
@@ -15,17 +16,16 @@ function Routing () {
     };
   }, [location.pathname]);
 
-    return (
-      <Routes basename="/">
-        <Route path="/" element={<Home />} />
-        <Route path="/rentals" element={<Rent />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/booking/livewire" element={<Booking index={0}/>} />
-        <Route path="/booking/pan_america" element={<Booking index={1}/>} />
-        <Route path="/booking/fat_bob" element={<Booking index={2}/>} />
-        <Route path="/booking/streetfighter" element={<Booking index={3}/>} />
-      </Routes>
-    );
+  return (
+    <Routes basename="/">
+      <Route path="/" element={<Home />} />
+      <Route path="/rentals" element={<Rent />} />
+      <Route path="/about" element={<About />} />
+      {bikes.map(bike => (
+        <Route key={bike.name} path={`/booking/${bike.link}`} element={<Booking index={bike.index} />} />
+      ))}
+    </Routes>
+  );
 }
 
 export default Routing;
