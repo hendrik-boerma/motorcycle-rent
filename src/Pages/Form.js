@@ -1,5 +1,5 @@
 import './Form.css';
-import Button from '../Components/Button';
+import FormButton from '../Components/FormButton';
 import { bikes } from '../Data.js'
 import { useState } from 'react';
 
@@ -51,7 +51,7 @@ function Form( {index} ) {
                 />
                 <p>${bikes[index].price} <span>per day</span></p>
                 </label>
-                <button buttonlink='/confirmation' text='Confirm booking' type="submit" ></button>
+                <FormButton buttonlink='/confirmation' text='Confirm booking' type="submit" />
             </form>
         </section>
 
