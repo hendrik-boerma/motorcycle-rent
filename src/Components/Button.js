@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import './Button.css';
 
-function Button({buttonlink, text}) {
+function Button({buttonlink, text, type}) {
 
   return (
-            <Link to={`/booking/${buttonlink}`} className="cardbutton">{text}</Link>
+            <Link to={buttonlink} className="cardbutton">{text}</Link>
   )
 }
 

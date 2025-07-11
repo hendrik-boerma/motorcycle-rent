@@ -22,7 +22,7 @@ function Cards({ products, brand, price }) {
           <p className='carddescription'>{product.engine}</p>
           <div>
             <p className="cardprice">${product.price} <span>per day</span></p>
-            <Button buttonlink={product.link} text='Book now'/>
+            <Button buttonlink={`/booking/${product.link}`} text='Book now'/>
           </div>
         </div>))
       }

@@ -11,7 +11,7 @@ function Booking({ index }) {
             <h2>{bikes[index].engine}</h2>
             <p className="productprice">${bikes[index].price} <span>per day</span></p>
             <p className='productdescription'>{bikes[index].description}</p>
-            <Button buttonlink='' text='Book this bike'/>
+            <Button buttonlink={`form`} text='Book this bike'/>
     </article>
     </section>
   )

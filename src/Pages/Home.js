@@ -14,7 +14,6 @@ function Home() {
     }    
 
     const bikesHome = [getRandomElement(bikes), getRandomElement(bikes), getRandomElement(bikes)];
-    console.log(bikesHome);
 
     return (
         <>
