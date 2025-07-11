@@ -1,9 +1,11 @@
 import './Rent.css';
 import React, { useEffect, useState } from 'react';
-import Cards from '../Components/Cards';
 import Title from '../Components/Title';
+import Cards from '../Components/Cards';
 import { brands, bikes, prices } from '../Data.js';
 import FilterComponent from '../Components/Filters.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 function Rent() {
   const [selectedBrand, setSelectedBrand] = useState('All brands');
@@ -42,7 +44,7 @@ function Rent() {
 
   return (
     <>
-      <Title title="Rentals" description="" />
+      <Title text='Rentals'/>
       <section className='filterSection'>
         <FilterComponent
           label="Brand"
@@ -56,7 +58,7 @@ function Rent() {
           selectedValue={selectedPrice}
           onChange={handlePriceChange}
         />
-        <button className='removeButton' onClick={removeFilter}>remove filters</button>
+        <button className='removeButton' onClick={removeFilter}><FontAwesomeIcon icon={faXmark} /> remove filters</button>
       </section>
       <Cards products={bikes} brand={selectedBrand} price={selectedPrice} />
     </>

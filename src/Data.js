@@ -6,44 +6,48 @@ import placeholder from './Images/placeholderimage.png';
 
 export const bikes = [
     {
-        brand: 'Harley',
+        brand: 'Harley Davidson',
         name: 'LiveWire',
         price: 95,
-        engine: 'Electric',
+        engine: 'Electric liquid-cooled',
         year: 2020,
         picture: livewire,
         link: 'livewire',
-        index: 0
+        index: 0,
+        description: 'Harley’s first electric motorcycle, the LiveWire delivers instant torque and a futuristic riding experience. It’s perfect for urban riders looking for performance and sustainability.'
     },
     {
-        brand: 'Harley',
+        brand: 'Harley Davidson',
         name: 'Pan America',
         price: 100,
         engine: 'V-twin 1250',
         year: 2022,
         picture: adventure,
         link: 'pan_america',
-        index: 1
+        index: 1,
+        description: 'The Pan America is Harley’s bold entry into the adventure touring segment. It combines rugged off-road capability with long-distance comfort.'
     },
     {
-        brand: 'Harley',
+        brand: 'Harley Davidson',
         name: 'Fat Bob',
         price: 95,
         engine: 'V-twin 1868',
         year: 2022,
         picture: naked,
         link: 'fat_bob',
-        index: 2
+        index: 2,
+        description: 'The Fat Bob stands out with its aggressive styling and powerful Milwaukee-Eight engine. It’s built for riders who want muscle and attitude.'
     },
     {
-        brand: 'Harley',
+        brand: 'Harley Davidson',
         name: 'Streetfighter',
         price: 95,
         engine: 'V-twin 975',
         year: 2024,
         picture: sport,
         link: 'streetfighter',
-        index: 3
+        index: 3,
+        description: 'A modern take on performance, the Streetfighter offers nimble handling and a punchy engine. It’s ideal for spirited rides through city streets.'
     },
     {
         brand: 'Ducati',
@@ -53,7 +57,8 @@ export const bikes = [
         year: 2022,
         picture: placeholder,
         link: 'panigale',
-        index: 4
+        index: 4,
+        description: 'The Panigale V4 is Ducati’s flagship superbike, engineered for track dominance. Its V4 engine and aerodynamic design deliver unmatched speed and precision.'
     },
     {
         brand: 'Triumph',
@@ -63,7 +68,8 @@ export const bikes = [
         year: 2023,
         picture: placeholder,
         link: 'bonneville',
-        index: 5
+        index: 5,
+        description: 'A modern classic, the Bonneville T120 blends vintage charm with modern performance. It’s perfect for relaxed cruising with timeless style.'
     },
     {
         brand: 'BMW',
@@ -73,7 +79,8 @@ export const bikes = [
         year: 2021,
         picture: placeholder,
         link: 'gs_adventure',
-        index: 6
+        index: 6,
+        description: 'The R 1250 GS Adventure is the ultimate touring machine, built for long-distance exploration. Its boxer engine and advanced tech make it a global favorite.'
     },
     {
         brand: 'Yamaha',
@@ -83,7 +90,8 @@ export const bikes = [
         year: 2022,
         picture: placeholder,
         link: 'r6',
-        index: 7
+        index: 7,
+        description: 'The YZF-R6 is a track-focused supersport bike with razor-sharp handling. It’s a favorite among riders who crave high-revving thrills.'
     },
     {
         brand: 'Honda',
@@ -93,7 +101,8 @@ export const bikes = [
         year: 2021,
         picture: placeholder,
         link: 'fireblade',
-        index: 8
+        index: 8,
+        description: 'Honda’s Fireblade is a legendary superbike known for its balance and precision. It’s engineered for both road and track excellence.'
     },
     {
         brand: 'Kawasaki',
@@ -103,7 +112,8 @@ export const bikes = [
         year: 2023,
         picture: placeholder,
         link: 'zx10r',
-        index: 9
+        index: 9,
+        description: 'The ZX-10R is Kawasaki’s championship-winning superbike. It’s packed with race-derived technology for ultimate performance.'
     },
     {
         brand: 'Suzuki',
@@ -113,7 +123,8 @@ export const bikes = [
         year: 2022,
         picture: placeholder,
         link: 'gsxr1000',
-        index: 10
+        index: 10,
+        description: 'The GSX-R1000 is Suzuki’s flagship sportbike, offering a blend of power and agility. It’s built for riders who demand speed and control.'
     },
     {
         brand: 'Indian',
@@ -123,7 +134,8 @@ export const bikes = [
         year: 2021,
         picture: placeholder,
         link: 'scout',
-        index: 11
+        index: 11,
+        description: 'The Indian Scout is a stylish cruiser with a smooth V-twin engine. It’s ideal for relaxed rides with a touch of heritage.'
     },
     {
         brand: 'KTM',
@@ -133,7 +145,8 @@ export const bikes = [
         year: 2023,
         picture: placeholder,
         link: 'super_duke_r',
-        index: 12
+        index: 12,
+        description: 'Nicknamed “The Beast,” the Super Duke R is a naked bike with ferocious power. It’s built for adrenaline-fueled street riding.'
     },
     {
         brand: 'Yamaha',
@@ -143,7 +156,8 @@ export const bikes = [
         year: 2023,
         picture: placeholder,
         link: 'mt09',
-        index: 13
+        index: 13,
+        description: 'The MT-09 is a versatile naked bike with a torquey triple engine. It’s fun, agile, and perfect for everyday thrills.'
     },
     {
         brand: 'Ducati',
@@ -153,7 +167,8 @@ export const bikes = [
         year: 2021,
         picture: placeholder,
         link: 'diavel',
-        index: 14
+        index: 14,
+        description: 'The Diavel blends cruiser comfort with sportbike performance. Its muscular design and powerful engine make a bold statement.'
     },
     {
         brand: 'Triumph',
@@ -163,7 +178,8 @@ export const bikes = [
         year: 2022,
         picture: placeholder,
         link: 'street_triple',
-        index: 15
+        index: 15,
+        description: 'The Street Triple is a lightweight naked bike with sharp handling. It’s a favorite for urban riders and weekend warriors alike.'
     },
     {
         brand: 'BMW',
@@ -173,7 +189,8 @@ export const bikes = [
         year: 2022,
         picture: placeholder,
         link: 's1000r',
-        index: 16
+        index: 16,
+        description: 'The S 1000 R is a high-performance naked bike with superbike DNA. It offers cutting-edge tech and thrilling acceleration.'
     },
     {
         brand: 'Triumph',
@@ -183,7 +200,8 @@ export const bikes = [
         year: 2021,
         picture: placeholder,
         link: 'speed_twin',
-        index: 17
+        index: 17,
+        description: 'The Speed Twin combines retro looks with modern performance. It’s a stylish and capable roadster for everyday riding.'
     },
     {
         brand: 'Honda',
@@ -193,7 +211,8 @@ export const bikes = [
         year: 2023,
         picture: placeholder,
         link: 'cb650r',
-        index: 18
+        index: 18,
+        description: 'The CB650R is a middleweight naked bike with a smooth inline-four engine. It’s great for new riders and seasoned commuters alike.'
     },
     {
         brand: 'Aprilia',
@@ -203,7 +222,8 @@ export const bikes = [
         year: 2022,
         picture: placeholder,
         link: 'tuono',
-        index: 19
+        index: 19,
+        description: 'The Tuono V4 is a streetfighter with race-bred performance. Its V4 engine and electronics package make it a top-tier naked bike.'
     },
     {
         brand: 'BMW',
@@ -213,8 +233,10 @@ export const bikes = [
         year: 2022,
         picture: placeholder,
         link: 'xr',
-        index: 20
+        index: 20,
+        description: 'The F 900 XR is a sport-touring bike with upright ergonomics and dynamic performance. It’s built for comfort and agility on long rides.'
     },
+
     {
         brand: 'Suzuki',
         name: 'V-Strom 1050',
@@ -223,7 +245,8 @@ export const bikes = [
         year: 2023,
         picture: placeholder,
         link: 'vstrom',
-        index: 21
+        index: 21,
+        description: 'The V-Strom 1050 is a capable adventure bike with a reliable V-twin engine. It’s built for touring comfort and light off-road exploration.'
     },
     {
         brand: 'Yamaha',
@@ -233,8 +256,9 @@ export const bikes = [
         year: 2022,
         picture: placeholder,
         link: 'mt07',
-        index: 22
-    },
+        index: 22,
+        description: 'The MT-07 is a lightweight and approachable naked bike with a punchy twin-cylinder engine. It’s a favorite among beginners and experienced riders alike.'
+    }
 ];
 
 

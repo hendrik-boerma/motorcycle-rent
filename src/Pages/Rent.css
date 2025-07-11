@@ -1,6 +1,6 @@
 select {
     padding: 0.5rem;
-    color: #0000EE;
+    color: #D9310B;
     border: none;
     background-color: #efefef;
     cursor: pointer;
@@ -9,7 +9,7 @@ select {
 }
 
 select:hover {
-    color: #0202c9;
+    color: #0D0D0D;
 }
 
 .filterSection {
@@ -18,7 +18,6 @@ select:hover {
     flex-wrap: wrap;
     gap: 1rem;
     width: 100%;
-    max-width: 30rem;
 }
 
 .filters {
@@ -30,15 +29,16 @@ select:hover {
 .removeButton {
     padding: 0.5rem;
     border: none;
-    color: #0000EE;
-    background-color: transparent;
+    color: #D9310B;
     cursor: pointer;
+    background-color: transparent;
     border-radius: 0.25rem;
     font-size: 1rem;
 }
 
 .removeButton:hover{
-    color: #0202c9;
+    color: #D9310B;
+    text-decoration: underline;
 }
 
 label {

@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
 import './Cards.css';
+import Button from './Button';
 
 function Cards({ products, brand, price }) {
 
@@ -18,11 +18,11 @@ function Cards({ products, brand, price }) {
       {filterProducts.map(product => (
         <div className="card" key={product.name}>
           <img className='cardimage' src={product.picture} alt={product.name} />
-          <h4 className='cardtitle'>{product.brand} - {product.name}</h4>
+          <h2 className='cardtitle'>{product.brand} - {product.name}</h2>
           <p className='carddescription'>{product.engine}</p>
           <div>
             <p className="cardprice">${product.price} <span>per day</span></p>
-            <Link to={`/booking/${product.link}`} className="cardbutton">Book now</Link>
+            <Button buttonlink={product.link} text='Book now'/>
           </div>
         </div>))
       }

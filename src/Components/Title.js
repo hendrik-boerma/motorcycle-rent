@@ -1,12 +1,12 @@
 import './Title.css';
 
-function Title({ title, description }) {
+function Title({text}) {
+
   return (
-    <section className='titlesection'>
-       <h1>{title}</h1>
-       {description && <p className='subtitle'>{description}</p>}
-    </section>
-  );
+            <div className='titlesection'>
+                <h1>{text}</h1>
+            </div>
+  )
 }
 
 export default Title;

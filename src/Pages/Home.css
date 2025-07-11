@@ -6,16 +6,13 @@
 }
 
 .seeMoreButton {
-    padding: 0.5rem;
-    color: #0000EE;
-    border: none;
-    background-color: #efefef;
+    font-weight: 500;
+    color:  #0D0D0D;
     cursor: pointer;
-    border-radius: 0.25rem;
     font-size: 1rem;
     text-decoration: none;
 }
 
 .seeMoreButton:hover {
-    color: #0202c9;
+    color: #D9310B;
 }

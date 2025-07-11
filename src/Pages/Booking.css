@@ -1,12 +1,21 @@
-section {
+.bookingsection {
     display: flex;
     flex-direction: row;
+    margin-top: -100px;
+    position: relative;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 -10px 80px -4px rgba(0, 0, 0, 0.1);
+
 }
 
 article {
     width: 100%;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
+    padding: 0px 24px 24px 24px;
 }
 
 .productimage {
@@ -20,7 +29,6 @@ article {
   .productprice {
     font-size: 1.25rem;
     font-weight: 600;
-    padding: 1rem;
   }
   
   .productprice span {
@@ -28,13 +36,16 @@ article {
     font-weight: 600;
     color: #0D0D0D;
   }
-  
-  .productdescription {
-    padding: 1rem;
-  }
 
-  @media (max-width: 750px) {
-    section {
+  .productdescription {
+    padding-bottom: 32px;
+  }
+  
+  @media (max-width: 1099px) {
+    .bookingsection {
       flex-direction: column;
+    }
+    article {
+    padding: 24px 0px;
     }
   }

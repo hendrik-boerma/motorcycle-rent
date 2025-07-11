@@ -3,6 +3,9 @@ import Title from '../Components/Title';
 import Cards from '../Components/Cards';
 import { bikes } from '../Data.js'
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
 
 function Home() {
 
@@ -15,10 +18,10 @@ function Home() {
 
     return (
         <>
-            <Title title="Rent your dream bike" description=""/>
+            <Title text='Rent a bike'/>
             <Cards products={bikesHome} brand={'All brands'} price={0}/>
             <div className='seeMoreSection'>
-            <Link className='seeMoreButton' to='/rentals'>See all rentals</Link>
+            <Link className='seeMoreButton' to='/rentals'>See all rentals <FontAwesomeIcon icon={faArrowRight} /></Link>
             </div>
         </>
 
