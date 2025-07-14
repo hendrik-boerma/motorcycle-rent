@@ -1,9 +1,9 @@
 import './Button.css';
 
-function FormButton({buttonlink, text, type}) {
+function FormButton({text, type}) {
 
   return (
-            <button href={buttonlink} className="cardbutton" type={type}>{text}</button>
+            <button className="cardbutton" type={type}>{text}</button>
   )
 }
 

@@ -2,8 +2,10 @@ import './Form.css';
 import FormButton from '../Components/FormButton';
 import { bikes } from '../Data.js'
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom'
 
-function Form( {index} ) {
+function Form({ index }) {
+    const navigate = useNavigate()
 
     const [values, setValues] = useState({
         name: '',
@@ -15,6 +17,7 @@ function Form( {index} ) {
         e.preventDefault()
         console.log("Form submitted");
         console.log(values)
+        navigate('/confirmation', { state: values });
     }
 
     const handleChanges = (e) => {
@@ -26,32 +29,32 @@ function Form( {index} ) {
             <h2>Booking form</h2>
             <form onSubmit={handleSubmit}>
                 <label>Name
-                <input
-                    type="text"
-                    name="name"
-                    onChange={handleChanges}
-                    required
-                />
+                    <input
+                        type="text"
+                        name="name"
+                        onChange={handleChanges}
+                        required
+                    />
                 </label>
                 <label>Age
-                <input
-                    type="text"
-                    name="age"
-                    onChange={handleChanges}
-                    required
-                />
+                    <input
+                        type="text"
+                        name="age"
+                        onChange={handleChanges}
+                        required
+                    />
                 </label>
                 <label>Bike
-                <input
-                    value={`${bikes[index].brand} - ${bikes[index].name}`}
-                    type="text"
-                    name="bike"
-                    required
-                    disabled
-                />
-                <p>${bikes[index].price} <span>per day</span></p>
+                    <input
+                        value={`${bikes[index].brand} - ${bikes[index].name}`}
+                        type="text"
+                        name="bike"
+                        required
+                        disabled
+                    />
+                    <p>${bikes[index].price} <span>per day</span></p>
                 </label>
-                <FormButton buttonlink='/confirmation' text='Confirm booking' type="submit" />
+                <FormButton text='Confirm booking' type="submit" />
             </form>
         </section>
 
