@@ -6,13 +6,6 @@ import { useNavigate } from 'react-router-dom'
 
 function Form({ index }) {
     const navigate = useNavigate()
-
-    const [error, setError] = useState({
-        name: '',
-        age: '',
-        email: '',
-    })
-
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     const [values, setValues] = useState({
@@ -20,6 +13,12 @@ function Form({ index }) {
         age: '',
         email: '',
         bike: `${bikes[index].brand} - ${bikes[index].name}`
+    })
+
+    const [error, setError] = useState({
+        name: '',
+        age: '',
+        email: '',
     })
 
     const handleSubmit = (e) => {
@@ -45,8 +44,6 @@ function Form({ index }) {
         } else {
             setError(prev => ({ ...prev, email: "" }));
         }
-
-
         if (
             values.name &&
             values.age &&
@@ -56,8 +53,6 @@ function Form({ index }) {
         ) {
             navigate('/confirmation', { state: values });
         }
-
-
     }
 
     const handleChanges = (e) => {
