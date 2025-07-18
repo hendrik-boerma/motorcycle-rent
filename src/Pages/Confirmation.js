@@ -2,7 +2,7 @@ import { useLocation } from 'react-router-dom';
 
 function Confirmation() {
     const location = useLocation();
-    const { name, age, bike } = location.state || {};
+    const { name, age, bike, email } = location.state || {};
 
     return (
         <section>
@@ -10,6 +10,7 @@ function Confirmation() {
             <h2>Booking details</h2>
             <p><strong>Name:</strong> {name}</p>
             <p><strong>Age:</strong> {age}</p>
+            <p><strong>Email:</strong> {email}</p>
             <p><strong>Bike:</strong> {bike}</p>
         </section>
     );

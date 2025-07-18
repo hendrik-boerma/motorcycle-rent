@@ -14,7 +14,6 @@
 form {
     display: flex;
     flex-direction: column;
-    gap: 8px;
     width: 400px;
 }
 
@@ -25,4 +24,11 @@ label {
 
 input {
     padding: 8px;
+}
+
+.errorMessage {
+    color: red;
+    font-weight: 500;
+    height: 2rem;
+    padding: 4px 0;
 }
