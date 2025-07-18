@@ -1,8 +1,8 @@
 select {
     padding: 0.5rem;
-    color: #D9310B;
+    color: var(--primary-color);
     border: none;
-    background-color: #efefef;
+    background-color: var(--background-color-2);;
     cursor: pointer;
     border-radius: 0.25rem;
     font-size: 1rem;
@@ -29,7 +29,7 @@ select:hover {
 .removeButton {
     padding: 0.5rem;
     border: none;
-    color: #D9310B;
+    color: var(--primary-color);
     cursor: pointer;
     background-color: transparent;
     border-radius: 0.25rem;
@@ -37,7 +37,7 @@ select:hover {
 }
 
 .removeButton:hover{
-    color: #D9310B;
+    color: var(--primary-color);
     text-decoration: underline;
 }
 

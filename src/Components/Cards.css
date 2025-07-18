@@ -6,7 +6,7 @@
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: var(--background-color);
   border-radius: 0.25rem;
   width: 100%;
   max-width: 30rem;
@@ -34,7 +34,7 @@
 .cardprice span {
   font-size: 1rem;
   font-weight: 600;
-  color: #0D0D0D;
+  color: var(--text-color);
 }
 
 .carddescription {

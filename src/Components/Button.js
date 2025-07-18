@@ -4,7 +4,7 @@ import './Button.css';
 function Button({buttonlink, text}) {
 
   return (
-            <Link to={buttonlink} className="cardbutton">{text}</Link>
+            <Link to={buttonlink} className="button">{text}</Link>
   )
 }
 

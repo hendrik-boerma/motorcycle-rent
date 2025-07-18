@@ -1,6 +1,6 @@
 footer {
     gap: 0.5rem;
-    background-color: #EFEFEF;
+    background-color: var(--background-color-2);;
     height: 24rem;
     margin-top: 8rem;
     display: flex;

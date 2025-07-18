@@ -1,9 +1,9 @@
-import './Button.css';
+import './FormButton.css';
 
 function FormButton({text, type}) {
 
   return (
-            <button className="cardbutton" type={type}>{text}</button>
+            <button className="formbutton" type={type}>{text}</button>
   )
 }
 

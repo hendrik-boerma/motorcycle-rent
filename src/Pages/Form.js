@@ -32,6 +32,8 @@ function Form({ index }) {
 
         if (!values.age) {
             setError(prev => ({ ...prev, age: "Please enter your age." }));
+        } else if (values.age <= 20) {
+            setError(prev => ({ ...prev, age: "You have to be at least 21 years of age." }));
         } else {
             setError(prev => ({ ...prev, age: "" }));
         }
@@ -44,9 +46,17 @@ function Form({ index }) {
             setError(prev => ({ ...prev, email: "" }));
         }
 
-        if (values.name && values.age && values.email && emailRegex.test(values.email)) {
+
+        if (
+            values.name &&
+            values.age &&
+            values.email &&
+            emailRegex.test(values.email) &&
+            values.age > 20
+        ) {
             navigate('/confirmation', { state: values });
         }
+
 
     }
 
@@ -92,7 +102,6 @@ function Form({ index }) {
                         name="bike"
                         disabled
                     />
-                    <p>${bikes[index].price} <span>per day</span></p>
                 </label>
                 <FormButton text='Confirm booking' type="submit" />
             </form>

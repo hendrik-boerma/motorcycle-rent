@@ -7,13 +7,13 @@ nav {
     padding: 1rem 4rem;
     display: flex;
     align-items: center;
-    background-color: #ffffff;
+    background-color: var(--background-color);;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     z-index: 100; 
 }
 
 .toggle-button {
-    background-color: #ffffff;
+    background-color: var(--background-color);;
     border: none;
     display: none;
     overflow: hidden;
@@ -24,7 +24,7 @@ nav {
 .toggle-button span {
     width: 2rem;
     height: 0.25rem;
-    background-color: #0D0D0D;
+    background-color: var(--text-color);
     border-radius: 4rem;
     transition: 0.5s;
 }
@@ -36,12 +36,12 @@ nav {
 .toggle-button.active span:nth-child(1) {
     transform: translateY(0.5rem) rotate(45deg);
     width: 2rem;
-    background-color: #D9310B;
+    background-color: var(--primary-color);
 }
 
 .toggle-button span:nth-child(2) {
     width: 2rem;
-    background-color: #D9310B;
+    background-color: var(--primary-color);
 }
 
 .toggle-button.active span:nth-child(2) {
@@ -59,7 +59,7 @@ nav {
 .logo {
     font-size: 1.25rem;
     font-weight: 600;
-    color: #0D0D0D;
+    color: var(--text-color);
     text-decoration: none;
 }
 

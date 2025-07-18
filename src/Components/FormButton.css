@@ -1,4 +1,4 @@
-.button {
+.formbutton {
     text-align: center;
     font-size: 1rem;
     border-radius: 0.25rem;
@@ -10,9 +10,10 @@
     border: 2px solid var(--primary-color);
     transition: 0.5s;
     width: fit-content;
+    margin-top: 32px;
   }
   
-  .button:hover {
+  .formbutton:hover {
     background-color: var(--background-color);
     border-color: var(--primary-color);
     color: var(--primary-color);

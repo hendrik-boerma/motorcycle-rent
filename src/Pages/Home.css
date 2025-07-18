@@ -7,12 +7,12 @@
 
 .seeMoreButton {
     font-weight: 500;
-    color:  #0D0D0D;
+    color: var(--text-color);
     cursor: pointer;
     font-size: 1rem;
     text-decoration: none;
 }
 
 .seeMoreButton:hover {
-    color: #D9310B;
+    color: var(--primary-color);
 }
