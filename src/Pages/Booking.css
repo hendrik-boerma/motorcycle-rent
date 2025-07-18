@@ -1,12 +1,7 @@
 .bookingsection {
     display: flex;
     flex-direction: row;
-    margin-top: -100px;
-    position: relative;
-    background-color: var(--background-color);
     padding: 16px;
-    border-radius: 10px;
-    box-shadow: 0 -10px 80px -4px rgba(0, 0, 0, 0.1);
 }
 
 article {

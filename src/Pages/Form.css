@@ -2,18 +2,13 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-top: -100px;
-    position: relative;
-    background-color: var(--background-color);
     padding: 16px;
-    border-radius: 10px;
-    box-shadow: 0 -10px 80px -4px rgba(0, 0, 0, 0.1);
 }
 
 form {
     display: flex;
     flex-direction: column;
-    min-width: 300px;
+    width: 500px;
 }
 
 label {
@@ -23,7 +18,7 @@ label {
 }
 
 input {
-    padding: 16px;
+    padding: 12px;
     border-radius: 10px;
     border: solid 2px var(--border-color);
 }
@@ -35,3 +30,9 @@ input {
     padding: 0;
     font-size: 14px;
 }
+
+@media screen and (max-width: 750px) {
+    form {
+        width: 350px;
+    }
+  }

@@ -1,4 +1,5 @@
 import { useLocation } from 'react-router-dom';
+import './Confirmation.css'
 
 function Confirmation() {
     const location = useLocation();
@@ -8,10 +9,27 @@ function Confirmation() {
         <section>
             <h1>Booking Confirmation</h1>
             <h2>Booking details</h2>
-            <p><strong>Name:</strong> {name}</p>
-            <p><strong>Age:</strong> {age}</p>
-            <p><strong>Email:</strong> {email}</p>
-            <p><strong>Bike:</strong> {bike}</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <th>Name</th>
+                        <td>{name}</td>
+                    </tr>
+                    <tr>
+                        <th>Age</th>
+                        <td>{age}</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>{email}</td>
+                    </tr>
+                    <tr>
+                        <th>Bike</th>
+                        <td>{bike}</td>
+                    </tr>
+                </tbody>
+            </table>
+
         </section>
     );
 }

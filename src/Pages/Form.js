@@ -61,7 +61,7 @@ function Form({ index }) {
 
     return (
         <section className='formsection'>
-            <h2>Booking form</h2>
+            <h1>Booking form</h1>
             <form onSubmit={handleSubmit} noValidate>
                 <label htmlFor="name">Name
                     <input
